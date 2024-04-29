@@ -62,11 +62,41 @@ class UsersTableSeeder extends Seeder
         Boleta::create([
             'user_id' => '2',
             'description' => 'enseñanza superior',
-            'mes' => 'febrero',
+            'mes' => 'enero',
             'año' => '2023',
             'descuentos' => '0.00',
             'subtotal' => '1000.00',
             'total' => '1000.00',
+        ]);
+
+        Boleta::create([
+            'user_id' => '2',
+            'description' => 'enseñanza básica',
+            'mes' => 'febrero',
+            'año' => '2023',
+            'descuentos' => '100.00',
+            'subtotal' => '1200.00',
+            'total' => '1100.00',
+        ]);
+
+        Boleta::create([
+            'user_id' => '2',
+            'description' => 'Curso Java',
+            'mes' => 'marzo',
+            'año' => '2023',
+            'descuentos' => '200.00',
+            'subtotal' => '1800.00',
+            'total' => '1700.00',
+        ]);
+
+        Boleta::create([
+            'user_id' => '2',
+            'description' => 'Curso progrmación',
+            'mes' => 'abril',
+            'año' => '2023',
+            'descuentos' => '50.00',
+            'subtotal' => '1100.00',
+            'total' => '1050.00',
         ]);
     }
 }
